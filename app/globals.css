@@ -27,7 +27,7 @@ body {
 }
 
 .text-small {
-  @apply text-sm font-bold;
+  @apply text-sm font-medium;
 }
 
 .paddings {
@@ -107,7 +107,7 @@ body {
 }
 
 .footer_copyright {
-  @apply max-sm:flex-col w-full text-sm font-bold;
+  @apply max-sm:flex-col w-full text-sm font-normal;
 }
 
 .footer_column {
@@ -130,7 +130,7 @@ body {
 
 /* Navbar */
 .navbar {
-  @apply py-2 px-6 md:py-5 md:px-8 border-b-2 border-black gap-4;
+  @apply py-5 px-8 border-b border-nav-border gap-4;
 }
 
 /* Profile Menu */
@@ -149,7 +149,7 @@ body {
 }
 
 .form_image-container {
-  @apply w-full lg:min-h-[400px] min-h-[200px] relative;
+  @apply w-full lg:min-h-[300px] min-h-[200px] relative;
 }
 
 .form_image-label {
@@ -157,7 +157,7 @@ body {
 }
 
 .form_image-input {
-  @apply absolute z-30 w-full opacity-0 h-full cursor-pointer;
+  @apply absolute z-30 opacity-0 w-full h-full cursor-pointer;
 }
 
 /* Profile Projects */
